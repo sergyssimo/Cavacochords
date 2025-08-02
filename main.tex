@@ -1,0 +1,107 @@
+\documentclass[fontsize=14pt,a4paper,landscape,DIV=9]{scrartcl}
+\KOMAoption{sectionentrydots}{true}
+\renewcommand*{\sectionformat}{}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}%{times}%{charter}%{bookman}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+% \usepackage[margin=2.5cm]{geometry}
+\usepackage[export]{adjustbox}
+\usepackage{multicol}
+\setlength{\columnsep}{2cm}
+\usepackage{color}
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{blue}}
+% \changefontsizes{9pt}
+
+
+
+\begin{document}
+\title{\textbf{\Huge Progressões Harmônicas\\ \vspace{1cm} para\\ \vspace{1cm} Cavaquinho}}
+\author{Baena}
+\date{\today}
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\begin{multicols}{2}
+\tableofcontents
+\end{multicols}
+
+\cleardoublepage
+\pagenumbering{arabic}
+\setcounter{page}{3}
+
+
+\includepdf[pages=1, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Do Maior, SPIN1}]{01_C}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Sol Maior, SPIN2}]{03_G}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Re Maior, SPIN3}]
+{05_D}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, La Maior, SPIN4}]{07_A}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Mi Maior, SPIN5}]
+{09_E}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Si Maior, SPIN6}]
+{11_B}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Fa Maior, SPIN7}]{13_F}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Si Bemol Maior, SPIN8}]{15_Bb}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Mi Bemol Maior, SPIN9}]{17_Eb}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, La Bemol Maior, SPIN10}]
+{19_Ab}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Re Bemol Maior, SPIN11}]
+{21_Db}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Sol Bemol Maior, SPIN12}]
+{23_Gb}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1,La Menor, SPIN13}]
+{02_Am}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Mi Menor, SPIN14}]
+{04_Em}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Si Menor, SPIN15}]
+{06_Bm}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1,Fa Sustenido Menor, SPIN16}]
+{08_Fsustm}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Do Sustenido Menor, SPIN17}]
+{10_Csustm}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Sol Sustenido Menor, SPIN18}]
+{12_Gsustm}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1,Re Menor, SPIN19}]
+{14_Dm}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1,Sol Menor, SPIN20}]
+{16_Gm}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Do Menor, SPIN21}]
+{18_Cm}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Fa Menor , SPIN22}]
+{20_Fm}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Si Bemol Menor, SPIN23}]
+{22_Bbm}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}},addtotoc={1, addsec, 1, Mi Bemol Menor, SPIN24}]
+{24_Ebm}
+
+\end{document}
